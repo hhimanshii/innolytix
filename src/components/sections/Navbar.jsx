@@ -19,11 +19,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#" className="flex items-center gap-2.5 group">
           <div className="w-9 h-9 bg-gray-900 rounded-lg flex items-center justify-center group-hover:bg-gray-800 transition-colors">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="3" y="3" width="7" height="18" rx="1" fill="white" opacity="0.9"/>
-              <rect x="12" y="7" width="6" height="14" rx="1" fill="white" opacity="0.7"/>
-              <rect x="20" y="11" width="1" height="10" rx="0.5" fill="white" opacity="0.5"/>
-            </svg>
+           <img src="https://media.licdn.com/dms/image/v2/D4D0BAQFTFbzDNnsBbw/company-logo_200_200/company-logo_200_200/0/1687958159962/innolytix_solutions_logo?e=1774483200&v=beta&t=saiUO5ST52UYuZCDtLMvfDF0kL52FVxxUbM9hZAgjDQ" className="h-10 w-10"/>
           </div>
           <div className="flex flex-col">
             <span className="text-lg font-bold tracking-tight text-gray-900 leading-tight">INNOLYTIX</span>
